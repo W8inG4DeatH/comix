@@ -1,0 +1,17 @@
+@import './../assets/scss/colors.scss';
+
+.content-container
+{
+    border-radius: 1rem;
+    border: 2px solid $blue-grey;
+    padding: 15px;
+}
+
+.comix-main-container {
+    height: 100%;
+
+    .comix-main-menu-container, .comix-main-content-container {
+        height: 100%;
+        padding: 20px;
+    }
+}
