@@ -6,6 +6,10 @@ import { AppComponent } from './app.component';
 
 import { FlexLayoutModule } from '@angular/flex-layout';
 
+import { DashboardModule } from './dashboard/dashboard.module';
+import { ListModule } from './list/list.module';
+import { EditionModule } from './edition/edition.module';
+
 @NgModule({
     declarations: [
         AppComponent
@@ -13,7 +17,10 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     imports: [
         BrowserModule,
         AppRoutingModule,
-        FlexLayoutModule
+        FlexLayoutModule,
+        DashboardModule,
+        ListModule,
+        EditionModule
     ],
     providers: [],
     bootstrap: [

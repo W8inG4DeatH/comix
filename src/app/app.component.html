@@ -1,18 +1,19 @@
 <div class="comix-main-container" fxLayout="row">
 
     <div class="comix-main-menu-container" fxLayout="column" fxLayuot="center" fxFlex="10">
-        <div class="buttons-container" fxLayout="column">
+        <div routerLink="/dashboard" class="buttons-container" fxLayout="column">
             <div class="btn blue"><span class="text">DASHBOARD</span></div>
         </div>
-        <div class="buttons-container" fxLayout="column">
+        <div routerLink="/list" class="buttons-container" fxLayout="column">
             <div class="btn blue"><span class="text">LIST</span></div>
+        </div>
+        <div routerLink="/edition" class="buttons-container" fxLayout="column">
+            <div class="btn blue"><span class="text">EDITION</span></div>
         </div>
     </div>
 
     <div class="comix-main-content-container" fxLayout="column" fxFlex>
-        <div class="content-container" fxLayout="row" fxLayoutAlign="center">
-            CONTENT
-        </div>
+        <router-outlet></router-outlet>
     </div>
 
 </div>
