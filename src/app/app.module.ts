@@ -6,10 +6,8 @@ import { AppComponent } from './app.component';
 
 import { FlexLayoutModule } from '@angular/flex-layout';
 
-import { DashboardModule } from './dashboard/dashboard.module';
-import { ListModule } from './list/list.module';
-import { EditionModule } from './edition/edition.module';
-import { LoginingModule } from './logining/logining.module';
+import { CommonComponentsModule } from './common-components/common-components.module';
+import { AreasModule } from './areas/areas.module';
 
 import { AppService } from './app.service';
 
@@ -21,10 +19,8 @@ import { AppService } from './app.service';
         BrowserModule,
         AppRoutingModule,
         FlexLayoutModule,
-        DashboardModule,
-        ListModule,
-        EditionModule,
-        LoginingModule
+        CommonComponentsModule,
+        AreasModule
     ],
     providers: [
         AppService

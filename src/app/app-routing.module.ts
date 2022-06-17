@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { DashboardModule } from './dashboard/dashboard.module';
-import { WidgetsPanelComponent } from './dashboard/widgets-panel/widgets-panel.component';
-import { ListPanelComponent } from './list/list-panel/list-panel.component';
-import { ComixEditorComponent } from './edition/comix-editor/comix-editor.component';
-import { EditionGuardGuard } from './edition/edition-guard.guard';
+import { DashboardModule } from './areas/dashboard/dashboard.module';
+import { WidgetsPanelComponent } from './areas/dashboard/widgets-panel/widgets-panel.component';
+import { ListPanelComponent } from './areas/list/list-panel/list-panel.component';
+import { ComixEditorComponent } from './areas/edition/comix-editor/comix-editor.component';
+import { EditionGuardGuard } from './areas/edition/edition-guard.guard';
 
 const routes: Routes = [
     { path: '', component: WidgetsPanelComponent },
