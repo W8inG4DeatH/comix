@@ -7,8 +7,6 @@ import { Injectable } from '@angular/core';
 )
 
 export class AppService {
-    public userIsLogged: boolean = true;
-
     constructor(
     ) {
 

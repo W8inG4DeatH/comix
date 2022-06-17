@@ -1,13 +1,7 @@
-@import './../assets/scss/colors.scss';
+@import 'src/assets/scss/colors.scss';
 
 .comix-main-container {
     height: 100%;
-
-    .comix-main-header-container {
-        height: 60px;
-        padding: 10px;
-        background-color: $field-border;
-    }
 
     .comix-main { 
 

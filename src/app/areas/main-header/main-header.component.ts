@@ -1,15 +1,20 @@
 import { Component, OnInit } from '@angular/core';
+import { LoginService } from '../login/login.service';
 
 @Component({
-  selector: 'app-main-header',
-  templateUrl: './main-header.component.html',
-  styleUrls: ['./main-header.component.scss']
+    selector: 'main-header',
+    templateUrl: './main-header.component.html',
+    styleUrls: ['./main-header.component.scss']
 })
+
 export class MainHeaderComponent implements OnInit {
 
-  constructor() { }
+    constructor(
+        public LoginService: LoginService
+    ) { }
 
-  ngOnInit(): void {
-  }
+    ngOnInit(): void {
+        
+    }
 
 }
