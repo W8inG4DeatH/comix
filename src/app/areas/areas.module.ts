@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { AppRoutingModule } from './../app-routing.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { CommonComponentsModule } from '../common-components/common-components.module';
@@ -19,6 +20,7 @@ import { MainMenuComponent } from './main-menu/main-menu.component';
     imports:
         [
             CommonModule,
+            AppRoutingModule,
             FlexLayoutModule,
             CommonComponentsModule,
             DashboardModule,
