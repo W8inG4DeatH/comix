@@ -5,13 +5,9 @@
 
     .comix-main { 
 
-        .comix-main-menu-container, .comix-main-content-container {
+        .comix-main-content-container {
             height: 100%;
             padding: 20px;
-        }
-
-        .comix-main-menu-container {
-            border-right: 1px solid $field-border;
         }
     }
 }

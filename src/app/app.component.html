@@ -4,17 +4,7 @@
 
     <div class="comix-main" fxLayout="row" fxFlex>
 
-        <div class="comix-main-menu-container" fxLayout="column" fxLayuot="center" fxFlex="10">
-            <div routerLink="/dashboard" class="buttons-container" fxLayout="column">
-                <div class="btn blue"><span class="text">DASHBOARD</span></div>
-            </div>
-            <div routerLink="/list" class="buttons-container" fxLayout="column">
-                <div class="btn blue"><span class="text">LIST</span></div>
-            </div>
-            <div routerLink="/edition" class="buttons-container" fxLayout="column">
-                <div class="btn blue"><span class="text">EDITION</span></div>
-            </div>
-        </div>
+        <main-menu fxFlex="10"></main-menu>
     
         <div class="comix-main-content-container" fxLayout="column" fxFlex>
             <router-outlet></router-outlet>
